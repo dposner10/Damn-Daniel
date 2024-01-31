@@ -5,12 +5,18 @@
 	font-family: "Inter-Black";
 	src: url("Inter-Black.woff") format("woff");
   }
-  @font-face {
+@font-face {
 	font-family: "BNBrickHouse-HeavyAlt";
 	src: url("BNBrickHouse-HeavyAlt.woff") format("woff");
   }
-  
-
+@font-face {
+	font-family: "BNDunk";
+	src: url("BNDunk.woff") format("woff");
+  } 
+@font-face {
+	font-family: "BNScoutsHand";
+	src: url("BNScoutsHand.woff") format("woff");
+  } 
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -43,10 +49,12 @@ body {
 	line-height: 1;
 }
 
+  
+
 ol, ul {
 	list-style: none;
 }
-
+e
 blockquote, q {
 	quotes: none;
 }
@@ -119,6 +127,10 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
+	h1 {
+		font-family: 'Inter-Black';
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #483949;
@@ -136,6 +148,7 @@ input, select, textarea {
 	}
 
 	h2 {
+		font-family: 'BNScoutsHand';
 		font-size: 2.85em;
 	}
 
@@ -2222,7 +2235,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: #fff;
-			font-size: 3em;
+			font-size: 4em;
 			line-height: 1em;
 		}
 
@@ -2623,6 +2636,17 @@ input, select, textarea {
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
+			}
+
+			.carousel article .video {
+				iframe {
+					position: relative;
+					left: -1em;
+					top: 0;
+					width: 18em;
+					margin-right: -2em;
+					margin-bottom: 3em;
+				  }
 			}
 
 			.carousel article p {
