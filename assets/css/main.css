@@ -2641,9 +2641,11 @@ input, select, textarea {
 			.carousel article .video {
 				iframe {
 					position: relative;
-					left: -1em;
+					padding: 0 1em 3em 1em;
+					margin: 0 2em 0 0;
+					left: -2em;
 					top: 0;
-					width: 18em;
+					width: 20em;
 					margin-right: -2em;
 					margin-bottom: 3em;
 				  }
